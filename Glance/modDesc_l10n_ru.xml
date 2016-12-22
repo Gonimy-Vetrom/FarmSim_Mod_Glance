@@ -12,7 +12,7 @@
 
     <!-- Note that 'description' is only here for easier translations. It needs to be manually copied to ModDesc.XML later. -->
     <description>
-Утилита для отображения уведомлений/статуса техники и животных. Может работать в соответствии
+Утилита для отображения уведомлений/состояния техники и животных. Может работать в соответствии
 с настройками, чтобы показывать только то, что Вы хотите видеть. 
     </description>
 
@@ -38,7 +38,7 @@
 
         <text name="fieldsWithBales"    text="Поля с тюками:"   />
         <text name="fieldNumAndBales"   text=" П%d(x%d)"            />
-        <text name="balesElsewhere"     text="Тюков не на полях (x%d)" />
+        <text name="balesElsewhere"     text="Тюков вне поля (x%d)" />
         
         <text name="fuellow"            text="Мало топлива (%s%%)"  />
         <text name="engineon"           text="Двигатель запущен!"   />
@@ -47,7 +47,7 @@
         <text name="speed+Unit"         text="%.1f %s"              />
         <text name="speedSlow"          text="Высокие обороты"      />
         <text name="speedIdle"          text="Стоит"                />
-        <text name="cp_waiting"         text="Ожидание"             />
+        <text name="cp_waiting"         text="Ожидает"             />
 
         <text name="unknownFillType"    text="(неизвестно)"         />
         <text name="bales"              text="Тюки"                 />
